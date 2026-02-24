@@ -7,23 +7,58 @@
     <title>Job Tracker</title>
 
     <!-- Daisy Ui Tailwind CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
     <style>
         * {
-            font-family: 'Manrope', sans-serif;
+            font-family: 'Work Sans', sans-serif;
+            
+        }
+
+        body {
+            background-color: #F8FAFC;
+            margin: 0;
         }
     </style>
 </head>
 
-<body>
-    <h1 class="text-2xl font-bold">Hello World!</h1>
+<body class="bg-slate-50 min-h-screen py-10">
+    <section class="w-[80%] mx-auto">
+
+        <h1 class="text-[32px] font-bold mb-8 text-[#002C5C]">
+            Job Application Tracker
+        </h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- total card -->
+            <div class="bg-white rounded-xl p-6 shadow-md ">
+                <p class="text-sm text-gray-500">Total</p>
+                <p class="text-2xl font-semibold mt-2">0</p>
+            </div>
+            <!-- interview card -->
+            <div class="bg-white rounded-xl p-6 shadow-md ">
+                <p class="text-sm text-gray-500">Interview</p>
+                <p class="text-2xl font-semibold text-green-500 mt-2">0</p>
+            </div>
+            <!-- rejected card -->
+            <div class="bg-white rounded-xl p-6 shadow-md ">
+                <p class="text-sm text-gray-500">Rejected</p>
+                <p class="text-2xl font-semibold text-red-500 mt-2">0</p>
+            </div>
+
+        </div>
+        <div class="w-full h-px bg-gray-200 mt-4"></div>
+
+    </section>
+
 </body>
 
 </html>
