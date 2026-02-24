@@ -19,7 +19,7 @@ const availableJobsCount = document.getElementById("availableJobsCount");
 
 //job Card Details 
 const jobs = [
-    {
+  {
     id: 1,
     company: "BRAC",
     position: "Field Officer",
@@ -29,6 +29,146 @@ const jobs = [
     status: "NOT APPLIED",
     description: "Work with rural development programs and support microfinance operations."
   },
+  {
+    id: 2,
+    company: "bKash Limited",
+    position: "Software Engineer",
+    location: "Dhaka",
+    type: "Full-time",
+    salary: "60,000 - 90,000 BDT",
+    status: "NOT APPLIED",
+    description: "Develop and maintain scalable fintech applications using modern technologies."
+  },
+  {
+    id: 3,
+    company: "Grameenphone",
+    position: "Network Engineer",
+    location: "Dhaka",
+    type: "Full-time",
+    salary: "50,000 - 80,000 BDT",
+    status: "NOT APPLIED",
+    description: "Maintain telecom infrastructure and ensure uninterrupted service operations."
+  },
+  {
+    id: 4,
+    company: "Square Pharmaceuticals",
+    position: "Medical Representative",
+    location: "Chattogram",
+    type: "Full-time",
+    salary: "22,000 - 35,000 BDT",
+    status: "NOT APPLIED",
+    description: "Promote pharmaceutical products and build relationships with healthcare providers."
+  },
+  {
+    id: 5,
+    company: "Walton Group",
+    position: "Electrical Engineer",
+    location: "Gazipur",
+    type: "Full-time",
+    salary: "35,000 - 55,000 BDT",
+    status: "NOT APPLIED",
+    description: "Oversee manufacturing and quality control of electrical appliances."
+  },
+  {
+    id: 6,
+    company: "ACI Limited",
+    position: "Sales Executive",
+    location: "Rajshahi",
+    type: "Full-time",
+    salary: "20,000 - 28,000 BDT",
+    status: "NOT APPLIED",
+    description: "Manage regional sales targets and develop new distribution channels."
+  },
+  {
+    id: 7,
+    company: "Pathao",
+    position: "Frontend Developer",
+    location: "Dhaka",
+    type: "Full-time",
+    salary: "45,000 - 70,000 BDT",
+    status: "NOT APPLIED",
+    description: "Build responsive user interfaces using React and modern frontend frameworks."
+  },
+  {
+    id: 8,
+    company: "Robi Axiata",
+    position: "Customer Service Manager",
+    location: "Dhaka",
+    type: "Full-time",
+    salary: "40,000 - 65,000 BDT",
+    status: "NOT APPLIED",
+    description: "Lead customer support teams and improve service quality standards."
+  },
+  {
+    id: 9,
+    company: "City Bank",
+    position: "Relationship Officer",
+    location: "Khulna",
+    type: "Full-time",
+    salary: "30,000 - 45,000 BDT",
+    status: "NOT APPLIED",
+    description: "Manage client accounts and promote financial products and services."
+  },
+  {
+    id: 10,
+    company: "Daraz Bangladesh",
+    position: "Logistics Coordinator",
+    location: "Dhaka",
+    type: "Full-time",
+    salary: "28,000 - 40,000 BDT",
+    status: "NOT APPLIED",
+    description: "Oversee warehouse operations and ensure timely product delivery."
+  },
+  {
+    id: 11,
+    company: "Pran-RFL Group",
+    position: "Supply Chain Officer",
+    location: "Narsingdi",
+    type: "Full-time",
+    salary: "30,000 - 50,000 BDT",
+    status: "NOT APPLIED",
+    description: "Monitor supply chain processes and manage inventory systems."
+  },
+  {
+    id: 12,
+    company: "Jamuna Group",
+    position: "Marketing Executive",
+    location: "Dhaka",
+    type: "Full-time",
+    salary: "25,000 - 38,000 BDT",
+    status: "NOT APPLIED",
+    description: "Plan and execute marketing campaigns to increase brand awareness."
+  },
+  {
+    id: 13,
+    company: "IDLC Finance",
+    position: "Credit Analyst",
+    location: "Dhaka",
+    type: "Full-time",
+    salary: "45,000 - 75,000 BDT",
+    status: "NOT APPLIED",
+    description: "Analyze financial data and evaluate creditworthiness of clients."
+  },
+  {
+    id: 14,
+    company: "Banglalink",
+    position: "Digital Marketing Specialist",
+    location: "Dhaka",
+    type: "Full-time",
+    salary: "50,000 - 85,000 BDT",
+    status: "NOT APPLIED",
+    description: "Manage digital campaigns and optimize online customer engagement."
+  },
+  {
+    id: 15,
+    company: "Meghna Group",
+    position: "HR Officer",
+    location: "Narayanganj",
+    type: "Full-time",
+    salary: "30,000 - 48,000 BDT",
+    status: "NOT APPLIED",
+    description: "Handle recruitment processes and maintain employee relations."
+  }
 ];
 
 let activeFilter = "ALL";
